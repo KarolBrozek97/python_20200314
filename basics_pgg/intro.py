@@ -88,12 +88,22 @@ print(2 == 2) # UWAGA! dwa =, pojednycze = to operator przypisania
 print(3 != 2) # True
 print()
 
+test_objetosci = 15 * 10 * 10 > 1000
+test_objetosci = 1000 < 15 * 10 * 10
+print(test_objetosci)
+
+print()
+# Instrukcja warunkowa - if
 
 
+warunek = True
 
+if warunek:
+    print("Wartosc w warunek jest prawdziwa")
+else:
+    print("Wartosc w warunek jest falszywa")
 
-
-
+print("Jestem juz za ifem")
 
 
 
