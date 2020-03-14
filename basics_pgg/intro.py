@@ -69,3 +69,9 @@ asd
 asd
 """) # jezeli uzywam enterow w napisie, to definiuje napis w """ albo '''
 
+
+# format specifiers
+# https://www.python.org/dev/peps/pep-0498/#format-specifiers
+# https://docs.python.org/3.4/library/string.html#formatspec
+wartosc = 105.105
+print(f"Koszt: >{wartosc:_^10.2f}<")
