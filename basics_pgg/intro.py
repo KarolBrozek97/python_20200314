@@ -75,3 +75,26 @@ asd
 # https://docs.python.org/3.4/library/string.html#formatspec
 wartosc = 105.105
 print(f"Koszt: >{wartosc:_^10.2f}<")
+
+
+# OPERATORY POROWNANIA
+print()
+print(1 > 2) # False
+print(2 < 5) # True
+print(2 < 2) # False
+print(2 <= 2) # True
+print(3 >= 2) # True
+print(2 == 2) # UWAGA! dwa =, pojednycze = to operator przypisania
+print(3 != 2) # True
+print()
+
+
+
+
+
+
+
+
+
+
+
