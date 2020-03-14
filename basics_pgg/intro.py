@@ -1,1 +1,71 @@
+# To jest komentarz
 print("Ala ma kota")
+
+# TYPY DANYCH
+
+# napisy, ciągi znaków, string
+# "Hello world!" - to jest literał typu string
+print("Hello world!")
+print('Hello world!')
+
+# int - liczba całkowita
+print(5)
+print(-10)
+print("5") # "5" 5
+
+# float - liczba zmiennaprzecinkowa
+print(3.14)
+print(3) # int
+print(3.0) # float
+print(0.5)
+print(.5) # float, zero na poczatku mozna pominac
+
+print(type(3.14))
+print(type(3))
+print(type(3.0))
+
+# bool, boolean, typ boolowski
+# Algebra Boola
+print(True) # achtung! z duzej litery!!!
+print(False)
+
+# typ None
+# None - wartość oznaczająca brak wartości
+print(None)
+print("")
+print(0)
+print(0.0)
+
+import sys
+print(sys.float_info)
+
+
+# OPERATORY
+print(10 + 3)
+print(10 - 3)
+print(10 * 3)
+print(10 / 3) # proces wyliczenia wyrażenia do prostej wartosci ewaluacją
+print(10 // 3) # dzielenie calkowitoliczbowe
+print(10 % 3) # reszta z dzielenia, modulo
+print(10 ** 3) # potega
+print("ala " + "ma kota") # laczenie napisow, kankatenacja
+print("-" * 30) # zwielokrotnienie napisu
+
+# NAPISY
+# mozemy definiowac w " i '
+print("Ksiazka \"Pan Tadeusz\"") # eskejpowanie znakow
+print('Ksiazka \'Pan Tadeusz\'')
+print('Ksiazka "Pan Tadeusz"')
+print("Ala ma kota") # napisy mozemy definiowac tylko w ramach jednej linijki, nie mozemy wstawic "entera"
+print("Ala\nma\nkota")
+# print standardowo wyswietla znak nowej linii na koncu
+print("""
+Ala 
+ma
+kota
+asd
+asd
+asd
+asd
+""") # jezeli uzywam enterow w napisie, to definiuje napis w """ albo '''
+
